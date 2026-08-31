@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ember Restaurant - premium dining experience" />
+  <title>Ember Restaurant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero" id="home">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Rest<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a href="#reservation" class="nav-btn">Book a Table</a>
+    </nav>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+      <p class="eyebrow">Premium Dining Experience</p>
+      <h1>Fire. Flavor.<br><span>Unforgettable.</span></h1>
+      <p class="hero-text">
+        Crafted dishes, fresh ingredients and a warm atmosphere designed
+        to turn every meal into a memorable experience.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#menu" class="btn primary-btn">Explore Menu</a>
+        <a href="#reservation" class="btn secondary-btn">Book a Table</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85"
+            alt="Elegant restaurant dining table"
+          />
+        </div>
+
+        <div class="about-content">
+          <p class="section-tag">Our Story</p>
+          <h2>Food made with <span>passion.</span></h2>
+          <p>
+            At Rest, every dish begins with carefully selected ingredients
+            and ends with bold, memorable flavor.
+          </p>
+          <p>
+            We combine modern cooking techniques with timeless recipes to
+            create food worth coming back for.
+          </p>
+
+          <div class="stats">
+            <div>
+              <strong>10+</strong>
+              <span>Years of Experience</span>
+            </div>
+            <div>
+              <strong>40+</strong>
+              <span>Signature Dishes</span>
+            </div>
+            <div>
+              <strong>4.9</strong>
+              <span>Guest Rating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Our Favorites</p>
+          <h2>Dishes people <span>come back for.</span></h2>
+          <p>
+            A carefully curated selection of signature dishes prepared with
+            fresh ingredients and bold flavors.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="food-card">
+            <div class="food-img">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85"
+                alt="Grilled steak"
+              />
+              <span class="badge">Chef's Choice</span>
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Flame Grilled Steak</h3>
+                <span>Rs. 2,490</span>
+              </div>
+              <p>Premium beef, roasted vegetables and pepper sauce.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-img">
+              <img
+                src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+                alt="Creamy pasta"
+              />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Truffle Cream Pasta</h3>
+                <span>Rs. 1,590</span>
+              </div>
+              <p>Creamy sauce, mushrooms, parmesan and fresh herbs.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-img">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+                alt="Gourmet burger"
+              />
+              <span class="badge">Signature</span>
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Ember House Burger</h3>
+                <span>Rs. 1,290</span>
+              </div>
+              <p>Beef patty, cheddar, caramelized onion and house sauce.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-list section">
+      <div class="container">
+        <div class="section-heading left">
+          <p class="section-tag">Explore The Menu</p>
+          <h2>Something for <span>every craving.</span></h2>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div>
+              <h3>Spicy Chicken Bites</h3>
+              <p>Crispy chicken, chili glaze, sesame</p>
+            </div>
+            <strong>Rs. 890</strong>
+          </div>
+
+          <div class="menu-item">
+            <div>
+              <h3>Classic Beef Steak</h3>
+              <p>Tenderloin, vegetables, pepper sauce</p>
+            </div>
+            <strong>Rs. 2,490</strong>
+          </div>
+
+          <div class="menu-item">
+            <div>
+              <h3>Grilled Herb Chicken</h3>
+              <p>Mashed potatoes, vegetables, herb jus</p>
+            </div>
+            <strong>Rs. 1,390</strong>
+          </div>
+
+          <div class="menu-item">
+            <div>
+              <h3>Truffle Mushroom Pasta</h3>
+              <p>Cream sauce, mushrooms, parmesan</p>
+            </div>
+            <strong>Rs. 1,590</strong>
+          </div>
+
+          <div class="menu-item">
+            <div>
+              <h3>Smoky BBQ Burger</h3>
+              <p>Beef patty, cheddar, BBQ glaze</p>
+            </div>
+            <strong>Rs. 1,290</strong>
+          </div>
+
+          <div class="menu-item">
+            <div>
+              <h3>Molten Chocolate Cake</h3>
+              <p>Dark chocolate, vanilla cream</p>
+            </div>
+            <strong>Rs. 790</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">The Experience</p>
+          <h2>More than <span>just dinner.</span></h2>
+        </div>
+
+        <div class="gallery-grid">
+          <img class="gallery-large"
+               src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
+               alt="Restaurant interior" />
+
+          <img
+               src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=85"
+               alt="Restaurant table setting" />
+
+          <img
+               src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=85"
+               alt="Restaurant food spread" />
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation section" id="reservation">
+      <div class="reservation-overlay"></div>
+
+      <div class="container reservation-content">
+        <p class="section-tag">Reserve Your Table</p>
+        <h2>Good food tastes <span>better together.</span></h2>
+        <p>
+          Planning a dinner, celebration or evening out? Reserve your table
+          and let us take care of the rest.
+        </p>
+
+        <div class="reservation-box">
+          <div>
+            <span>Date</span>
+            <strong>Choose a date</strong>
+          </div>
+          <div>
+            <span>Time</span>
+            <strong>Select time</strong>
+          </div>
+          <div>
+            <span>Guests</span>
+            <strong>2 Guests</strong>
+          </div>
+          <a href="#contact" class="btn primary-btn">Find a Table</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial section">
+      <div class="container testimonial-box">
+        <p class="stars">★★★★★</p>
+        <blockquote>
+          “Fantastic atmosphere, great service and beautifully presented food.
+          Ember makes every visit feel special.”
+        </blockquote>
+        <p class="guest">— A Happy Guest</p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-tag">Visit Ember</p>
+          <h2>Your table is <span>waiting.</span></h2>
+          <p class="contact-copy">
+            Join us for lunch, dinner or a special occasion and enjoy an
+            experience built around great food and warm hospitality.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <div>
+            <span>Location</span>
+            <strong>undefined, Lahore</strong>
+          </div>
+          <div>
+            <span>Opening Hours</span>
+            <strong>Mon–Thu: 12 PM – 11 PM<br>Fri–Sun: 12 PM – 12 AM</strong>
+          </div>
+          <div>
+            <span>Reservations</span>
+            <strong>+92 300 1234567</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo">Rest<span>.</span></a>
+        <p>Fire. Flavor. Unforgettable.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <p class="copyright">© 2026 Rest Restaurant.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
